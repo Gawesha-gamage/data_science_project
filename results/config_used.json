@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "quora_path": "data/quora/train.csv",
+  "quora_sample": 20000,
+  "embedding_dim": 100,
+  "sentence_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "k_retrieval": 5,
+  "bootstrap_n": 1000,
+  "embedding_used": "sentence-transformers/all-MiniLM-L6-v2",
+  "data_source": "synthetic",
+  "best_method_error_analysis": "Embedding NN",
+  "thresholds": {
+    "TF-IDF baseline": 0.05327287251059677,
+    "Embedding NN": 0.4291456639766693
+  }
+}
